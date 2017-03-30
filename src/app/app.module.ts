@@ -4,6 +4,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CoursesPage } from "../pages/courses/courses";
 import { NotesPage } from "../pages/notes/notes";
+import { LivresPage } from "../pages/livres/livres";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,7 +16,8 @@ import {IBookData} from "../providers/i-book-data";
       MyApp,
       HomePage,
       CoursesPage,
-      NotesPage
+      NotesPage,
+      LivresPage
   ],
 
   imports: [
@@ -27,7 +29,8 @@ import {IBookData} from "../providers/i-book-data";
       MyApp,
       HomePage,
       CoursesPage,
-      NotesPage
+      NotesPage,
+      LivresPage
   ],
 
   providers: [

@@ -14,5 +14,13 @@
 
 
 <ion-content padding>
-
+  <ion-list no-lines>
+    <button detail-none ion-item *ngFor="let livre of livres; let i = index;">
+      <ion-avatar item-left>
+        <img [src]="livre.Image">
+      </ion-avatar>
+      <h2>{{livre.Title}}</h2>
+      <p>{{livre.SubTitle}}</p>
+    </button>
+  </ion-list>
 </ion-content>

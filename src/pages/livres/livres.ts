@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {IBookData} from "../../providers/i-book-data";
 
 /*
   Generated class for the Livres page.
@@ -12,8 +13,13 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'livres.html'
 })
 export class LivresPage {
+  livres: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public navParams: NavParams, private iBookData: IBookData) {
+      iBookData.getLocalData().subscribe(data => {
+          this.livres = data;
+      });
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LivresPage');

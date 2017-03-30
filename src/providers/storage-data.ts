@@ -1,22 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-import {Observable} from "rxjs";
 
 /*
-  Generated class for the IBookData provider.
+  Generated class for the StorageData provider.
 
   See https://angular.io/docs/ts/latest/guide/dependency-injection.html
   for more info on providers and Angular 2 DI.
 */
 @Injectable()
-export class IBookData {
+export class StorageData {
 
   constructor(public http: Http) {
-    console.log('Hello IBookData Provider');
+    console.log('Hello StorageData Provider');
   }
 
-  getLocalData():Observable<any> {
-      return this.http.get("assets/data/donnees.json").map(res => res.json().Books);
-  }
 }
