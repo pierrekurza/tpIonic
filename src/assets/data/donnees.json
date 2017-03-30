@@ -1,0 +1,88 @@
+{
+  "Error": "0",
+  "Time": 0.0219,
+  "Total": "496",
+  "Page": 1,
+  "Books": [
+    {
+      "ID": 3992000895,
+      "Title": "JavaScript JSON Cookbook",
+      "SubTitle": "Over 80 recipes to make the most of JSON in your desktop, server, web, and mobile applications",
+      "Description": "JSON (JavaScript Object Notation) is a lightweight text-based data interchange format used to create objects to transfer data over the Internet. It's widely used today by common web applications, as well as mobile applications.nnThis book gives you ...",
+      "Image": "http://s.it-ebooks-api.info/14/javascript_json_cookbook.jpg",
+      "isbn": "9781785286902"
+    },
+    {
+      "ID": 3733509927,
+      "Title": "Object-Oriented JavaScript",
+      "SubTitle": "Create scalable, reusable high-quality JavaScript applications, and libraries",
+      "Description": "This book treats JavaScript as a serious object-oriented language, showing you how to build robust, maintainable, and powerful libraries and applications. Along the way, we cover many of the recent innovations such as AJAX, JSON, and interesting desi ...",
+      "Image": "http://s.it-ebooks-api.info/14/object-oriented_javascript.jpg",
+      "isbn": "9781847194145"
+    },
+    {
+      "ID": 2080244199,
+      "Title": "Introduction to JavaScript Object Notation",
+      "SubTitle": "A To-the-Point Guide to JSON",
+      "Description": "What is JavaScript Object Notation (JSON) and how can you put it to work? This concise guide helps busy IT professionals get up and running quickly with this popular data interchange format, and provides a deep understanding of how JSON works. Author ...",
+      "Image": "http://s.it-ebooks-api.info/3/introduction_to_javascript_object_notation_early_release.jpg",
+      "isbn": "9781491929483"
+    },
+    {
+      "ID": 1196558874,
+      "Title": "Head First JavaScript",
+      "SubTitle": "A Learner's Companion to JavaScript",
+      "Description": "Want to make the leap from writing HTML and CSS web pages and create dynamic web applications? Want to take your web skills to the next level? It sounds like you're ready to learn the Web's hottest programming language: JavaScript. Head First JavaScr ...",
+      "Image": "http://s.it-ebooks-api.info/3/head_first_javascript.jpg",
+      "isbn": "9780596527747"
+    },
+    {
+      "ID": 1195998323,
+      "Title": "JavaScript: The Good Parts",
+      "SubTitle": "Unearthing the Excellence in JavaScript",
+      "Description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a su ...",
+      "Image": "http://s.it-ebooks-api.info/3/javascript_the_good_parts.jpg",
+      "isbn": "9780596517748"
+    },
+    {
+      "ID": 1689934194,
+      "Title": "Learning JavaScript Design Patterns",
+      "SubTitle": "A JavaScript and jQuery Developer's Guide",
+      "Description": "If you want to write beautiful, structured, and maintainable JavaScript code, this guide shows you how to apply both classical and modern design patterns to the language. The patterns in this book provide reusable code solutions to common problems in ...",
+      "Image": "http://s.it-ebooks-api.info/3/learning_javascript_design_patterns.jpg",
+      "isbn": "9781449331818"
+    },
+    {
+      "ID": 3234496620,
+      "Title": "Learning JavaScript",
+      "SubTitle": "A Hands-On Guide to the Fundamentals of Modern JavaScript",
+      "Description": "With the arrival of HTML5, jQuery, and Ajax, JavaScript web development skills are more valuable  than ever! This complete, hands-on JavaScript tutorial covers everything you need to know now.  Using line-by-line code walkthroughs and end-of-chapter ...",
+      "Image": "http://s.it-ebooks-api.info/10/learning_javascript.jpg",
+      "isbn": "9780321832740"
+    },
+    {
+      "ID": 3285308904,
+      "Title": "JavaScript Enlightenment",
+      "SubTitle": "From Library User to JavaScript Developer",
+      "Description": "If you're an advanced beginner or intermediate JavaScript developer, JavaScript Enlightenment will solidify your understanding of the language - especially if you use a JavaScript library. In this concise book, JavaScript expert Cody Lindley (jQuery ...",
+      "Image": "http://s.it-ebooks-api.info/3/javascript_enlightenment.jpg",
+      "isbn": "9781449342883"
+    },
+    {
+      "ID": 421958423,
+      "Title": "Getting Started with Meteor.js JavaScript Framework",
+      "SubTitle": "Develop modern web applications in Meteor, one of the hottest new JavaScript platforms",
+      "Description": "Meteor is a brand new platform built entirely in JavaScript that allows you to build modern, dynamic web applications in the blink of an eye. With support for nearly every popular JavaScript framework (and more being added every day), Meteor provides ...",
+      "Image": "http://s.it-ebooks-api.info/14/getting_started_with_meteor.js_javascript_framework.jpg",
+      "isbn": "9781782160823"
+    },
+    {
+      "ID": 1645280050,
+      "Title": "Node Cookbook",
+      "SubTitle": "Over 50 recipes to master the art of asynchronous server-side JavaScript using Node",
+      "Description": "A hands on approach to learning Node to equip and guide you in the art of asynchronous server side JavaScript.nnPacked with practical recipes taking you from the basics to extending Node with your own modules. Create your own web server to see Node ...",
+      "Image": "http://s.it-ebooks-api.info/14/node_cookbook.jpg",
+      "isbn": "9781849517188"
+    }
+  ]
+}

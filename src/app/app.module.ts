@@ -7,6 +7,7 @@ import { NotesPage } from "../pages/notes/notes";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {IBookData} from "../providers/i-book-data";
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+      IBookData
   ]
 })
 export class AppModule {}
